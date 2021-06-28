@@ -4,4 +4,4 @@ title: Learning
 permalink: "learning.html"
 ---
 
-[Complex Varables](/complex-varables/)
+[Complex Variables](/complex-variables/)
