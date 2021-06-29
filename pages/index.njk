@@ -5,6 +5,6 @@ permalink: "index.html"
 
 {% for post in blog %}
 
-    <h1>{{post.title}}</h1>
+    <a href="blog/{{post.filename}}">{{post.title}}</a>
 
 {% endfor %}
