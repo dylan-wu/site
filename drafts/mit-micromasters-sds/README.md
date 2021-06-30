@@ -11,6 +11,8 @@ Courses I have yet to complete:
 6. Data Analysis: Statistical Modeling and Computation in Applications
 7. Capstone Exam in Statistics and Data Science
 
+![image](https://user-images.githubusercontent.com/6586811/123988494-b24dee80-d98d-11eb-8043-4b489cef6d1c.png)
+
 ## 6.431x Probability - The Science of Uncertainty and Data
 
 This course was my first introduction to probability, learning about random variables, bayesian inferences, PMFs and PDFs have all helped me in future courses, and in my research projects.
@@ -34,6 +36,8 @@ I've always been really interested in AI, and while I know that the things in th
 I've already completed the course required to pass this exam, so I'm just waiting for it to open up to enrollment in Summer 2021.
 
 I'll have to go back and look at the course to brush up on anything I might've forgotten, and find the associated MIT OCW course and take their final.
+
+![image](https://user-images.githubusercontent.com/6586811/123988310-892d5e00-d98d-11eb-98da-f3925b97a358.png)
 
 ## Data Analysis: Statistical Modeling and Computation in Applications
 
