@@ -7,9 +7,9 @@ I have been going through the MITx Micromasters in Statistics and Data Science c
 
 Courses I have yet to complete:
 
-- Data Analysis in Social Science—Assessing Your Knowledge
+- Data Analysis in Social Science—Assessing Your Knowledge starts Aug 18th
 - Data Analysis: Statistical Modeling and Computation in Applications
-- Capstone Exam in Statistics and Data Science
+- Capstone Exam in Statistics and Data Science starts Oct 7th
 
 ## 6.431x Probability - The Science of Uncertainty and Data
 
@@ -44,3 +44,4 @@ This course opens on August 30th, 2021, and I'm already enrolled.
 The Capstone exam is open currently, but because I am missing one class (either of the two aforementioned courses), I'm unable to enroll in the Capstone.
 
 My best option to study this course before it opens is to somehow find some online guide, or maybe someone has catalogued some similar questions. I'll have to go look.
+
