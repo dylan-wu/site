@@ -1,15 +1,18 @@
 I have been going through the MITx Micromasters in Statistics and Data Science courses and as of July 2021, I have completed:
 
-- [6.431x Probability - The Science of Uncertainty and Data](https://courses.edx.org/certificates/8f52dce30e364ab2bdacbc05b9d83bf3)
-- [18.6501x Fundamentals of Statistics](https://courses.edx.org/certificates/638eb74d2fbf49eba2fbcf72c729002b)
-- [6.86x Machine Learning with Python: from Linear Models to Deep Learning](https://courses.edx.org/certificates/8809766248b14bdf87e0f20c39a72111)
-- Data Analysis in Social Science (this course doesn't have a certificate attached to it)
+1. [6.431x Probability - The Science of Uncertainty and Data](https://courses.edx.org/certificates/8f52dce30e364ab2bdacbc05b9d83bf3)
+2. [18.6501x Fundamentals of Statistics](https://courses.edx.org/certificates/638eb74d2fbf49eba2fbcf72c729002b)
+3. [6.86x Machine Learning with Python: from Linear Models to Deep Learning](https://courses.edx.org/certificates/8809766248b14bdf87e0f20c39a72111)
+4. Data Analysis in Social Science (this course doesn't have a certificate attached to it)
 
 Courses I have yet to complete:
 
-- Data Analysis in Social Science—Assessing Your Knowledge starts Aug 18th
-- Data Analysis: Statistical Modeling and Computation in Applications
-- Capstone Exam in Statistics and Data Science starts Oct 7th
+
+5. Data Analysis in Social Science—Assessing Your Knowledge starts Aug 18th
+6. Data Analysis: Statistical Modeling and Computation in Applications
+7. Capstone Exam in Statistics and Data Science starts Oct 7th
+
+![image](https://user-images.githubusercontent.com/6586811/123988494-b24dee80-d98d-11eb-8043-4b489cef6d1c.png)
 
 ## 6.431x Probability - The Science of Uncertainty and Data
 
@@ -35,6 +38,8 @@ I've already completed the course required to pass this exam, so I'm just waitin
 
 I'll have to go back and look at the course to brush up on anything I might've forgotten, and find the associated MIT OCW course and take their final.
 
+![image](https://user-images.githubusercontent.com/6586811/123988310-892d5e00-d98d-11eb-98da-f3925b97a358.png)
+
 ## Data Analysis: Statistical Modeling and Computation in Applications
 
 This course opens on August 30th, 2021, and I'm already enrolled.
@@ -44,4 +49,7 @@ This course opens on August 30th, 2021, and I'm already enrolled.
 The Capstone exam is open currently, but because I am missing one class (either of the two aforementioned courses), I'm unable to enroll in the Capstone.
 
 My best option to study this course before it opens is to somehow find some online guide, or maybe someone has catalogued some similar questions. I'll have to go look.
+<<<<<<< HEAD
 
+=======
+>>>>>>> 363de0d88353e6ed6d09e47f9e8f9d473d01d3ab
