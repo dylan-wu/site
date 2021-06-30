@@ -8,7 +8,7 @@
         ],
         "description": "",
         "thumb": "2021-calendar.jfif",
-        "filename":"04-29-2021-til"
+        "link":"04-29-2021-til"
     },
     {
         "title": "TIL: Complex Variables",
@@ -19,7 +19,7 @@
         ],
         "description": "",
         "thumb": "2021-calendar.jfif",
-        "filename":"05-18-2021-til"
+        "link":"05-18-2021-til"
     },
     {
         "title": "TIL: Borel Measure, Complex Variables, Math in Nature",
@@ -32,6 +32,6 @@
         ],
         "description": "",
         "thumb": "2021-calendar.jfif",
-        "filename":"05-19-2021-til"
+        "link":"05-19-2021-til"
     }
 ]
