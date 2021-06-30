@@ -38,8 +38,6 @@ I've already completed the course required to pass this exam, so I'm just waitin
 
 I'll have to go back and look at the course to brush up on anything I might've forgotten, and find the associated MIT OCW course and take their final.
 
-![image](https://user-images.githubusercontent.com/6586811/123988310-892d5e00-d98d-11eb-98da-f3925b97a358.png)
-
 ## Data Analysis: Statistical Modeling and Computation in Applications
 
 This course opens on August 30th, 2021, and I'm already enrolled.
@@ -49,7 +47,3 @@ This course opens on August 30th, 2021, and I'm already enrolled.
 The Capstone exam is open currently, but because I am missing one class (either of the two aforementioned courses), I'm unable to enroll in the Capstone.
 
 My best option to study this course before it opens is to somehow find some online guide, or maybe someone has catalogued some similar questions. I'll have to go look.
-<<<<<<< HEAD
-
-=======
->>>>>>> 363de0d88353e6ed6d09e47f9e8f9d473d01d3ab
