@@ -1,15 +1,15 @@
 I have been going through the MITx Micromasters in Statistics and Data Science courses and as of July 2021, I have completed:
 
-- [6.431x Probability - The Science of Uncertainty and Data](https://courses.edx.org/certificates/8f52dce30e364ab2bdacbc05b9d83bf3)
-- [18.6501x Fundamentals of Statistics](https://courses.edx.org/certificates/638eb74d2fbf49eba2fbcf72c729002b)
-- [6.86x Machine Learning with Python: from Linear Models to Deep Learning](https://courses.edx.org/certificates/8809766248b14bdf87e0f20c39a72111)
-- Data Analysis in Social Science (this course doesn't have a certificate attached to it)
+1. [6.431x Probability - The Science of Uncertainty and Data](https://courses.edx.org/certificates/8f52dce30e364ab2bdacbc05b9d83bf3)
+2. [18.6501x Fundamentals of Statistics](https://courses.edx.org/certificates/638eb74d2fbf49eba2fbcf72c729002b)
+3. [6.86x Machine Learning with Python: from Linear Models to Deep Learning](https://courses.edx.org/certificates/8809766248b14bdf87e0f20c39a72111)
+4. Data Analysis in Social Science (this course doesn't have a certificate attached to it)
 
 Courses I have yet to complete:
 
-- Data Analysis in Social Science—Assessing Your Knowledge
-- Data Analysis: Statistical Modeling and Computation in Applications
-- Capstone Exam in Statistics and Data Science
+5. Data Analysis in Social Science—Assessing Your Knowledge
+6. Data Analysis: Statistical Modeling and Computation in Applications
+7. Capstone Exam in Statistics and Data Science
 
 ## 6.431x Probability - The Science of Uncertainty and Data
 
