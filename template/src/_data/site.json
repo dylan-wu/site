@@ -1,5 +1,5 @@
 {
-  "name": "Dylan Wu",
+  "title": "Dylan Wu",
   "description": "Personal site of Dylan Wu",
   "url": "https://dylanwu.com",
   "author": {
@@ -10,7 +10,7 @@
   "paginate": 6,
   "keywords": ["school", "unschool", "deschool", "public education", "social good"],
   "defaultSocialImage": "/images/default-social-image.png",
-  "headerLinks": [
+  "menu": [
     {
       "text": "Blog",
       "url": "/blog.html",
