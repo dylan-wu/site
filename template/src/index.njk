@@ -3,6 +3,17 @@ layout: default
 permalink: "index.html"
 ---
 
-{% include "bunny-rabbit/hero.njk" %}
-
-{% include "bunny-rabbit/featured-posts.njk" %}
+<section class="text-gray-600 body-font overflow-hidden">
+  <div class="container px-5 py-24 mx-auto">
+    <p class="mb-8 text-2xl flex items-start text-black font-bold">Featured Links</p>
+    <div class="-my-8 divide-y-2 divide-black">
+      {% for post in collections.posts %}
+        <div class="py-8 flex flex-wrap md:flex-nowrap">
+          <div class="md:flex-grow">
+            <a href="blog/{{post.url | slug}}" class="text-2xl font-medium text-gray-900 title-font mb-2 truncate">{{post.data.title}}</a>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

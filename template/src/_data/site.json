@@ -1,13 +1,14 @@
 {
-  "title": "Vredeburg",
-  "description": "Eleventy template",
-  "url": "https://github.com/dylan-wu/template-11ty-vredeburg",
+  "title": "Dylan Wu",
+  "description": "Personal site of Dylan Wu",
+  "url": "https://dylanwu.com",
   "author": {
     "name": "Dylan Wu",
     "email": "hey@dylanwu.com",
     "twitterHandle": "dylanwu"
   },
   "paginate": 6,
+  "keywords": ["school", "unschool", "deschool", "public education", "social good"],
   "defaultSocialImage": "/images/default-social-image.png",
   "menu": [
     {
@@ -18,8 +19,13 @@
     {
       "text": "Topics",
       "url": "/tags",
-      "external": false      
-    },    
+      "external": false
+    },
+    {
+      "text": "Learning",
+      "url": "/learning",
+      "external": false
+    },       
     {
       "text": "About",
       "url": "/about",
@@ -32,6 +38,11 @@
     }    
   ],
   "socialLinks": [
+    {
+      "text": "Instagram",
+      "url": "https://instagram.com/thedylanwu",
+      "external": true
+    },
     {
       "text": "GitHub",
       "url": "https://github.com/dylan-wu",
