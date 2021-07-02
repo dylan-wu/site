@@ -1,0 +1,65 @@
+{
+  "title": "Dylan Wu",
+  "description": "Personal site of Dylan Wu",
+  "url": "https://dylanwu.com",
+  "author": {
+    "name": "Dylan Wu",
+    "email": "hey@dylanwu.com",
+    "twitterHandle": "dylanwu"
+  },
+  "paginate": 6,
+  "keywords": ["school", "unschool", "deschool", "public education", "social good"],
+  "defaultSocialImage": "/images/default-social-image.png",
+  "menu": [
+    {
+      "text": "Blog",
+      "url": "/blog.html",
+      "external": false
+    },
+    {
+      "text": "Topics",
+      "url": "/tags",
+      "external": false
+    },
+    {
+      "text": "Learning",
+      "url": "/learning",
+      "external": false
+    },       
+    {
+      "text": "About",
+      "url": "/about",
+      "external": false
+    },
+    {
+      "text": "Contact",
+      "url": "/contact",
+      "external": false
+    }    
+  ],
+  "socialLinks": [
+    {
+      "text": "Instagram",
+      "url": "https://instagram.com/thedylanwu",
+      "external": true
+    },
+    {
+      "text": "GitHub",
+      "url": "https://github.com/dylan-wu",
+      "external": true
+    },
+    {
+      "text": "Twitter",
+      "url": "https://twitter.com/dylanwu",
+      "external": true
+    }
+  ],
+  "footerLinks": [
+    {
+      "text": "RSS",
+      "url": "/feed.xml",
+      "external": true
+    }
+  ],
+  "showFooterAttribution": true
+}
