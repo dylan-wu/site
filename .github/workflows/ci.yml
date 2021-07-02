@@ -12,7 +12,8 @@ jobs:
         with:
           repository: dylan-wu/template-11ty-vredeburg
           path: template
-          token: ${{ secrets.REPO_CHECKOUT }}      
+          token: ${{ secrets.REPO_CHECKOUT }}
+          branch: master
       - name: Install latest coda data
         run: |
           rm -rf template/.git
