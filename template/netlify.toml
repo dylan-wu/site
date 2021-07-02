@@ -7,33 +7,3 @@
   status = 200
   force = true
   headers = {X-From = "Netlify"}
-[[redirects]]
-  from = "/complex-variables/*"
-  to = "https://complexvariables.netlify.app:splat"
-  status = 200
-  force = true
-  headers = {X-From = "Netlify"}
-[[redirects]]
-  from = "/complex-variables/*"
-  to = "https://complexvariables.netlify.app:splat"
-  status = 200
-  force = true
-  headers = {X-From = "Netlify"}
-[[redirects]]
-  from = "/complex-variables/*"
-  to = "https://complexvariables.netlify.app:splat"
-  status = 200
-  force = true
-  headers = {X-From = "Netlify"}
-[[redirects]]
-  from = "/complex-variables/*"
-  to = "https://complexvariables.netlify.app:splat"
-  status = 200
-  force = true
-  headers = {X-From = "Netlify"}
-[[redirects]]
-  from = "/complex-variables/*"
-  to = "https://complexvariables.netlify.app:splat"
-  status = 200
-  force = true
-  headers = {X-From = "Netlify"}
