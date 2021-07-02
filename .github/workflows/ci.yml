@@ -18,7 +18,6 @@ jobs:
           rm -rf template/.git
           ls -la template
           ls -la template/src/
-          cat template/src/index.njk
       - name: Running script
         run: |
           src/update.sh
