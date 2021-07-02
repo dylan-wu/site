@@ -1,4 +1,7 @@
 const pluginTailwind = require('eleventy-plugin-tailwindcss');
+const { DateTime } = require("luxon");
+
+
 
 module.exports = (config) => {
   config.addPlugin(pluginTailwind, {
@@ -24,6 +27,10 @@ module.exports = (config) => {
   config.addCollection('pagedPosts', require('./lib/collections/pagedPosts'));
   config.addCollection('pagedPostsByTag', require('./lib/collections/pagedPostsByTag'));
 
+  config.addFilter("postDate", (dateObj) => {
+    return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
+  });
+  
   return {
     dir: {
       input: 'src',
