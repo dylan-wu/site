@@ -2,6 +2,7 @@
 title: Using Math Tools to Verify and Check Questions
 date: 2021-06-14
 tags: ["Complex Variables"]
+thumb: .image.jpg
 description: ''
 ---
 
