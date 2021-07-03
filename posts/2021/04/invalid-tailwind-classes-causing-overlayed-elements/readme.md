@@ -2,6 +2,7 @@
 title: Invalid Tailwind classes causing overlayed elements
 date: 2021-04-16
 tags: [TIL, Tailwind]
+thumb: .image.jpg
 description: ''
 ---
 

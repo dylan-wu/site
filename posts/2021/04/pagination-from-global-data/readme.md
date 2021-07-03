@@ -2,6 +2,7 @@
 title: Eleventy Pagination From Global Data
 date: 2021-04-25
 tags: [Eleventy]
+thumb: .image.jpg
 description: ''
 ---
 

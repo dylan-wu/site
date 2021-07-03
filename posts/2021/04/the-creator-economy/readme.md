@@ -1,7 +1,8 @@
 ---
 title: The Creator Economy
 date: 2021-04-13T05:00:00Z
-tags: []
+tags: [Creator Economy, Business]
+thumb: .image.jpg
 description: ''
 ---
 

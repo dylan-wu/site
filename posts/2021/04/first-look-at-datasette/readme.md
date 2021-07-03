@@ -1,7 +1,8 @@
 ---
 title: First Look at Datasette
 date: 2021-04-16
-tags: [Datasette]
+tags: [Datasette, Python, SQL, Open Source]
+thumb: .image.jpg
 description: ''
 ---
 

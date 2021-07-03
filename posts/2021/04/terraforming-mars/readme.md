@@ -1,7 +1,8 @@
 ---
 title: Terraforming Mars
 date: 2021-04-15
-tags: [Breakthrough Junior Prize, Mars]
+tags: [Breakthrough Junior Prize, Mars, Science]
+thumb: .image.jpg
 description: ''
 ---
 
