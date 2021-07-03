@@ -1,5 +1,6 @@
 ---
-title: "Thoughts on: The Simulation and the Calculation of the Shortest Hohmann Transfer Orbit to Mars"
+title: "Thoughts on: The Simulation and the Calculation of the Shortest
+Hohmann Transfer Orbit to Mars"
 date: 2021-05-30
 tags: [Mars, Hohmann Transfer Orbit]
 description: ''

@@ -1,5 +1,5 @@
 ---
-title: Thoughts on "Fundamentals of Quantization" from Stanford University
+title: Thoughts on \"Fundamentals of Quantization\" from Stanford University
 date: 2021-05-18
 tags: [Quantization, UTRGV High Scholars]
 description: ''
