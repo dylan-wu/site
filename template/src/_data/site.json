@@ -13,7 +13,7 @@
   "menu": [
     {
       "text": "Blog",
-      "url": "/blog.html",
+      "url": "/blog",
       "external": false
     },
     {
