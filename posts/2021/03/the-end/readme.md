@@ -2,7 +2,8 @@
 title: The End.
 date: 2021-03-05T20:00:00Z
 tags: []
-thumb: thumb.jpg
+thumb: .image.jpg
+thumbCredit: Joshua Hoehne via Unsplash
 description: The first post on this blog.
 
 ---
