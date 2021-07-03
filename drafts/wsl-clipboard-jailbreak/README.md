@@ -1,8 +1,10 @@
 ---
 title: WSL Clipboard Jailbreak
-tags: [WSL, Windows, Linux]
+tags: [WSL, Windows, Linux, TIL]
 description: 'Use clip.exe while in WSL commandline to copy text to Windows clipboard'
 ---
+
+# WSL Clipboard Jailbreak
 
 ```
 cat README.md | clip.exe

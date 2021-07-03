@@ -4,6 +4,8 @@ tags: [Tailwind]
 description: ''
 ---
 
+# Scaling the Dom with alpinejs
+
 ## Knock, Knock.
 
 <iframe frameborder="0" width="600px" height="300px" src="https://replit.com/@EdgeKaos/Hello-Alpinejs?lite=true"></iframe>
