@@ -5,8 +5,6 @@ tags: [Quantization]
 description: ''
 ---
 
-# Thoughts On What I've Learned About Quantization So Far
-
 So I've been learning about Quantization for the past couple weeks, using things like Wolfram Mathematica to understand some of the vocabulary better, as well as giving me visual representations of something like, say, a Voronoi diagram.
 
 The biggest question that I have so far after reading through some of the papers, is, how do propositions come up in the first place?

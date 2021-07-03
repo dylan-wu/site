@@ -2,10 +2,10 @@
 title: Continue Look at Quantization Paper for High Scholars Project
 date: 2021-05-21
 tags: [Complex Variables, TIL, Quantization, High Scholars]
+thumb: .image.jpg
+thumbCredit: Instagram timmossholder
 description: ''
 ---
-
-# Continue Look at Quantization Paper for High Scholars Project
 
 Now, onto the main result of the paper, if we skip the introduction paragraph, and go straight to 2.1 Optimal quantization for a uniform distribution on a line segment, then it states:
 

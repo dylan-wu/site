@@ -1,7 +1,9 @@
 ---
-title: "Trying to understand: Stochastic Model for the Spread of the COVID-19 Virus"
+title: Stochastic Model for the Spread of the COVID-19 Virus
 date: 2021-05-18
-tags: [Trying to understand, COVID-19, Math]
+tags: [COVID-19, Math]
+thumb: .image.jpg
+thumbCredit: Ivan Diaz via Unsplash
 description: ''
 ---
 

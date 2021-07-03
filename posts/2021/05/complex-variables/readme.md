@@ -2,6 +2,8 @@
 title: Complex Variables MATH 4342
 date: 2021-05-13
 tags: ["Complex Variables"]
+thumb: .image.jpg
+thumbCredit: Bill Jelen via Unsplash
 description: ''
 ---
 

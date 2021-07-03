@@ -2,10 +2,9 @@
 title: Borel Measure, Complex Variables, Math in Nature
 date: 2021-05-19
 tags: [Measure Theory, Borel Measure, TIL, Complex Variables]
+thumb: .image.jpg
 description: ''
 ---
-
-# Borel Measure, Complex Variables, Math in Nature
 
 The wikipedia definition of a Borel measure is "a measure [on a topological space] that is defined on all open sets"
 

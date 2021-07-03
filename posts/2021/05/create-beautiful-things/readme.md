@@ -2,10 +2,9 @@
 title: Create Beautiful Things
 date: 2021-05-28
 tags: [Writing]
+thumb: .image.jpg
 description: ''
 ---
-
-# Create Beautiful Things
 
 Do those who create great works of art, Tolstoy with War and Peace and Anna Karenina. Shakespeare and his miriad of plays, Dante's Divine Comedy, Da Vinci's Mona Lisa, Michelangelo's David and The Pieta, imagine themselves as creating something so profound that will last for centuries? Did they ever have that moment of realization where they stepped back to look at their finished work and realized "Oh wow, I've just made something truly beautiful."?
 

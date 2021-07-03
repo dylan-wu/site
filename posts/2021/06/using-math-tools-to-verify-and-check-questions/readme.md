@@ -6,8 +6,6 @@ thumb: .image.jpg
 description: ''
 ---
 
-# Using Math Tools to Verify and Check Questions
-
 I've just started my Complex Variables class and completed the first homework assignment.
 
 Tools like wolfram alpha, geogebra and desmos are super useful to visualize and verify my work. For example, there are several questions that asked me to graph or sketch a graph of some set in the complex plane. Now, geogebra and desmos don't have a "complex plane" feature, but that's no problem, because of what I've learend previously that the complex plane and standard cartesian plane are practically the same!

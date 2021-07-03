@@ -6,8 +6,6 @@ thumb: .image.jpg
 description: ''
 ---
 
-# Invalid Tailwind classes causing overlayed elements
-
 I encountered a new problem recently after I made a navbar on Indie Science sticky, some elements like images and forms were appearing over my navbar, not respecting the z-order.
 
 Assuming it was the z-order, I quickly added the z-99 class to my header element, which, didn't work. Going back to one of my previous blog posts __Question everything, truth you shall find.__ I thought that maybe it was because my class, "z-99" wasn't actually a tailwind class.

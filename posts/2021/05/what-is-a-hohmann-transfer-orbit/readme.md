@@ -2,6 +2,7 @@
 title: What Is a Hohmann Transfer Orbit
 date: 2021-05-30
 tags: [Hohmann Transfer Orbit]
+thumb: .image.jpg
 description: ''
 ---
 

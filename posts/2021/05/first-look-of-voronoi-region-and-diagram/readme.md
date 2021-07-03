@@ -5,8 +5,6 @@ tags: [Complex Variables, TIL]
 description: ''
 ---
 
-# First Look of Voronoi Region and Diagram
-
 Learning about voronoi diagrams using mathematica now, in Wikipedia, they are defined as:
 
 "A partition of a plane into regions close to each of a given set of objects."

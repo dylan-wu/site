@@ -5,8 +5,6 @@ tags: [Complex Variables, TIL, Quantization]
 description: ''
 ---
 
-# Thoughts on Quantization for Uniform Distributions on Semicircles
-
 In this paper: [QUANTIZATION FOR UNIFORM DISTRIBUTIONS ON HEXAGONAL, SEMICIRCULAR, AND ELLIPTICAL CURVES](https://arxiv.org/pdf/1902.03887.pdf), given to me (and written) by Professor Roychowdhury, it discusses quantizations for uniform distributions on a variety of shapes, hexagons, semicircles, and ellipses. In this article, I'll mainly be focusing on semicircles (as per Dr. Roychowdhury's suggestion)
 
 ## 4. Quantization for a Mixed Uniform Distribution on Semicircular Curve

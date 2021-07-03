@@ -5,7 +5,6 @@ tags: [Complex Variables, TIL]
 description: ''
 ---
 
-# Parallels in Complex Variables and Real Analysis
 
 [A First Course in Complex Analysis by Matthias beck, Gerald Marchesi, Dennis Pixton, and Lucas Sabalka](http://math.sfsu.edu/beck/papers/complexorth.pdf)
 

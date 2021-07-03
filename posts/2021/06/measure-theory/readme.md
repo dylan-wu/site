@@ -2,10 +2,9 @@
 title: Measure Theory
 date: 2021-06-14
 tags: ["Real Analysis", "Measure Theory", "TIL"]
+thumb: .image.jpg
 description: ''
 ---
-
-# Measure Theory
 
 From the textbook Real Analysis Measure Theory Integration and Hilbert Spaces
 

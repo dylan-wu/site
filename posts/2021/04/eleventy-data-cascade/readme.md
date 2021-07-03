@@ -2,6 +2,8 @@
 title: Eleventy Data Cascade
 date: 2021-04-24
 tags: [Eleventy]
+thumb: .image.jpg
+thumbCredit: Joe Green via Unsplash
 description: ''
 ---
 
