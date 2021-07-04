@@ -8,6 +8,8 @@ module.exports = {
       if (data.thumb) {
         if (data.thumb.search(/^https?:\/\//) !== -1) {
           return data.thumb;
+        } else if (data.thumb.startsWith('.')){
+          return data.thumb.substring(1);
         }
         return `/assets/img/${data.thumb}`;
       } else {
