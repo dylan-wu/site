@@ -45,7 +45,7 @@ module.exports = (config) => {
   config.addPassthroughCopy('src/assets/img/**/*');
   config.addPassthroughCopy({ 'src/posts/img/**/*': 'assets/img/' });
 
-  config.addPassthroughCopy('src/smart-health/img');
+  //config.addPassthroughCopy('src/smart-health/img');
 
   config.addWatchTarget("src/assets/js/");
 

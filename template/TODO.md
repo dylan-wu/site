@@ -6,3 +6,6 @@
 
 - [ ] Tanner Blog
     https://tannerdolby.com/
+
+- [ ] newsletters
+    https://modernmakers.io/
