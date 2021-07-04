@@ -6,7 +6,6 @@
             {% if post.data.thumb %}
                 <img class="w-full m-0 rounded-t lazy" src="{{ lazyImage }}" data-src="{{ post.data.thumb | url }}" width="960" height="500" alt="{{ post.data.title }}">
             {% else %}
-                {% console.log(post.data.title) %}
                 {% image "?" + post.data.title, post.data.title %} 
             {% endif %}
         </a>
