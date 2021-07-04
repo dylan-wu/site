@@ -13,7 +13,7 @@ async function imageShortcode(src, alt, sizes) {
   if (src.startsWith('?')){
     src=`https://source.unsplash.com/random?orientation=landscape&query="${src.substring(1)}"`
   }
-  console.log(src)
+
   let metadata = await Image(src, {
     outputDir: path.join(projectDir, 'dist/assets/img/'),
     urlPath: "/assets/img/",
