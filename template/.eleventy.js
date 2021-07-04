@@ -5,10 +5,6 @@ const path = require('path')
 const projectDir = path.resolve('.') 
 const katex = require('katex')
 
-function getRandomInt(max) {
-  return Math.floor(Math.random() * max);
-}
-
 async function imageShortcode(src, alt, sizes) {
   if (src.startsWith('?')){
     src=`https://source.unsplash.com/random?orientation=landscape&query="${src.substring(1)}"`
@@ -33,8 +29,6 @@ async function imageShortcode(src, alt, sizes) {
     whitespaceMode: "inline"
   });
 }
-
-
 
 module.exports = (config) => {
   config.addPlugin(pluginTailwind, {
