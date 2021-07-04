@@ -1,12 +1,44 @@
 const pluginTailwind = require('eleventy-plugin-tailwindcss');
 const { DateTime } = require("luxon");
+const Image = require("@11ty/eleventy-img");
+const path = require('path')
+const projectDir = path.resolve('.') 
 
+function getRandomInt(max) {
+  return Math.floor(Math.random() * max);
+}
 
+async function imageShortcode(src, alt, sizes) {
+  if (src.startsWith('?')){
+    src=`https://source.unsplash.com/random${src}`
+  }
+
+  let metadata = await Image(src, {
+    outputDir: path.join(projectDir, 'dist/assets/img/'),
+    urlPath: "/assets/img/",
+    widths: [500],
+    formats: ["avif", "jpeg"]
+  });
+
+  let imageAttributes = {
+    alt,
+    sizes,
+    loading: "lazy",
+    decoding: "async",
+  };
+
+  // You bet we throw an error on missing alt in `imageAttributes` (alt="" works okay)
+  return Image.generateHTML(metadata, imageAttributes, {
+    whitespaceMode: "inline"
+  });
+}
 
 module.exports = (config) => {
   config.addPlugin(pluginTailwind, {
     src: 'src/assets/css/*'
   });
+
+  config.addNunjucksAsyncShortcode("image", imageShortcode);
 
   config.setDataDeepMerge(true);
 
@@ -30,6 +62,8 @@ module.exports = (config) => {
   config.addFilter("postDate", (dateObj) => {
     return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
   });
+
+  config.addNunjucksFilter('split', require('./filters/split'))
   
   return {
     dir: {

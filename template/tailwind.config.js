@@ -1,4 +1,14 @@
-const colors = require('tailwindcss/colors');
+const plugin = require('tailwindcss/plugin')
+const site = require('./src/_data/site.json')
+
+const colorFirst = plugin(function({ addUtilities }) {
+    const newUtilities = {
+        '.color-first:first-letter': {
+            color: site.brandColor?site.brandColor:"rgba(79, 70, 229, 1)",
+        },
+    }
+    addUtilities(newUtilities, ['responsive', 'hover'])
+})
 
 module.exports = {
   purge: {
@@ -34,10 +44,15 @@ module.exports = {
             }
           }
         }
-      })
+      }),
+      animation: {
+        'spin-slow': 'spin 3600s linear infinite'
+      }      
     },
   },
   plugins: [
-    require('@tailwindcss/typography')
+    require('@tailwindcss/typography'),
+    require('@tailwindcss/custom-forms'),
+    colorFirst
   ]
 };
