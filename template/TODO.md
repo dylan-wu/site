@@ -9,3 +9,7 @@
 
 - [ ] newsletters
     https://modernmakers.io/
+
+- [ ] Fix the about, needs to have a better format, and pull information from site.json
+- [x] Contact needs to have a contact form
+- [x] Fix latex

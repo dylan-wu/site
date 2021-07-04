@@ -3,6 +3,7 @@ const { DateTime } = require("luxon");
 const Image = require("@11ty/eleventy-img");
 const path = require('path')
 const projectDir = path.resolve('.') 
+const katex = require('katex')
 
 function getRandomInt(max) {
   return Math.floor(Math.random() * max);
@@ -33,10 +34,22 @@ async function imageShortcode(src, alt, sizes) {
   });
 }
 
+
+
 module.exports = (config) => {
   config.addPlugin(pluginTailwind, {
     src: 'src/assets/css/*'
   });
+
+  config.addFilter('latex', content => {
+    return content.replace(/\$\$(.+?)\$\$/g, (_, equation) => {
+      const cleanEquation = equation
+        .replace(/&lt;/g, '<')
+        .replace(/&gt;/g, '>')
+  
+      return katex.renderToString(cleanEquation, { throwOnError: false })
+    })
+  })
 
   config.addNunjucksAsyncShortcode("image", imageShortcode);
 
