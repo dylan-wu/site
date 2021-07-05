@@ -4,6 +4,7 @@ const Image = require("@11ty/eleventy-img");
 const path = require('path')
 const projectDir = path.resolve('.') 
 const katex = require('katex')
+const embedTwitter = require("eleventy-plugin-embed-twitter");
 
 async function imageShortcode(src, alt, sizes) {
   if (src.startsWith('?')){
@@ -31,6 +32,8 @@ async function imageShortcode(src, alt, sizes) {
 }
 
 module.exports = (config) => {
+  config.addPlugin(embedTwitter)
+
   config.addPlugin(pluginTailwind, {
     src: 'src/assets/css/*'
   });
