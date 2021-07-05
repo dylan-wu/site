@@ -1,0 +1,11 @@
+---
+layout: default
+permalink: "index.html"
+---
+{% if hero %}
+{% include "bunny-rabbit/hero.njk" %}
+{% endif %}
+
+{% set title = "Featured Posts" %}
+{% set posts = collections.posts %}
+{% include "bunny-rabbit/featured-posts.njk" %}
