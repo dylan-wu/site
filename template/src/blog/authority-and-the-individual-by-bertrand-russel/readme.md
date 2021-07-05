@@ -2,6 +2,8 @@
 title: Authority and the Individual by Bertrand Russel
 date: 2021-05-22
 tags: [Bertrand Russel, Books, Authority and the Individual]
+thumb: .image.jpg
+thumbCredit: Dan Calderwood via Unsplash
 description: ''
 ---
 
