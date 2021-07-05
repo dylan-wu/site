@@ -20,12 +20,7 @@
       "text": "Topics",
       "url": "/tags",
       "external": false
-    },
-    {
-      "text": "Learning",
-      "url": "/learning",
-      "external": false
-    },       
+    },      
     {
       "text": "About",
       "url": "/about",
