@@ -1,0 +1,37 @@
+<main class="flex items-center justify-content h-screen">
+    <div class="w-full h-full p-10 py-20 flex flex-col flex-wrap justify-center content-center">
+        <div class="m-0 p-0 mb-10 text-9xl font-black antialiased text-center">{{ title }}</div>
+
+<div class="w-screen h-full p-10 py-20 flex flex-col flex-wrap justify-center content-center">
+  <div class="w-full h-1/8 flex flex-row justify-center items-start z-0">
+    <img class="w-20 animate-spin-slow" src="{{ logo }}"></img>
+  </div>
+  <div class="w-full flex flex-row justify-center space-x-10 z-10">
+    {% for word in title | split(" ") %}
+      <div class="m-0 p-0 mb-10 text-9xl font-black antialiased text-center color-first">{{word}}</div>
+    {% endfor %}
+  </div>
+  <div class=" m-5  p-5 w-full bg-gray-200  text-2xl  antialiased  text-center z-10">{{ description }}</div>
+  <div class="flex w-full justify-center z-10">
+    <div class=" mt-3 w-full flex justify-center">
+      {% include "newsletter/emailoctopus.njk" %}
+    </div>
+  </div>
+  <div class="flex w-full justify-center z-10">
+    {% if subscriberCount %}
+      <div>Join {{subscriberCount}} readers</div>  
+    {% endif %}
+  </div>
+  <div class="flex w-full justify-center mt-5 text-2xl z-10">
+    {% if pastIssuesLink and voteLink %}
+      <p>Read past <a href="{{pastIssuesLink}}" class="underline text-indigo-600">issues</a>/<a href="{{voteLink}}" class="underline text-indigo-600">vote</a> on the topic of the next issue.<p>
+    {% elif pastIssuesLink %}
+      <p>Read past <a href="{{pastIssuesLink}}" class="underline text-indigo-600">issues</a></p>
+    {% elif voteLink %}
+      <p><a href="{{voteLink}}" class="underline text-indigo-600">Vote</a> on the topic of the next issue.</p>
+    {% endif %}
+    <p>Take a look at all <a href="{{topicsLink}}" class="underline text-indigo-600">topics</a>.</p>
+  </div>
+</div>
+    </div>
+</main>
