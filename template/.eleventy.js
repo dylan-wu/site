@@ -49,6 +49,8 @@ module.exports = (config) => {
 
   config.setDataDeepMerge(true);
 
+  config.addPassthroughCopy('src/blog/**/*.jpg');
+  config.addPassthroughCopy('src/blog/**/*.gif');
   config.addPassthroughCopy('src/assets/img/**/*');
   config.addPassthroughCopy({ 'src/posts/img/**/*': 'assets/img/' });
 
