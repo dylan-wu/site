@@ -2,10 +2,22 @@
 layout: default
 permalink: "index.html"
 ---
-{% if hero %}
+{# {% if hero %}
 {% include "bunny-rabbit/hero.njk" %}
-{% endif %}
+{% endif %} #}
 
-{% set title = "Featured Posts" %}
+{% set postsTitle = "Featured Posts" %}
 {% set posts = collections.posts %}
-{% include "bunny-rabbit/featured-posts.njk" %}
+{# {% include "bunny-rabbit/featured-posts.njk" %} #}
+
+{% from 'tanner/hero.njk' import hero %}
+
+{{ hero(site.title, site.description, 1, 2, "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1713&q=80") }}
+
+{% from 'tanner/posts-list.njk' import postsList %}
+
+{{ postsList(site.posts_title, collections.posts) }}
+
+{% from "tanner/projects-list.njk" import projectsList %}
+
+{{ projectsList(site.projects_title) }}
