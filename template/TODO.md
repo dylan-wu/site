@@ -18,3 +18,7 @@
 
 - [x] Contact needs to have a contact form
 - [x] Fix latex
+
+- [ ] https://www.artofmanliness.com/
+
+- [ ] https://mathvault.ca/
