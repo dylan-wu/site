@@ -48,5 +48,3 @@ And finally run the database on your local machine
 ```
 datasette radio.db -o
 ```
-
-Voila!
