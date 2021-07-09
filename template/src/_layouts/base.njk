@@ -2,7 +2,10 @@
 layout: blank
 ---
 
-{% include "tanner/nav.njk" %}
+{% from 'tanner/nav.njk' import nav %}
+
+{{ nav(site.title, site.menu) }}
+
 <main class="mx-7 lg:mx-6 mt-16 flex-grow">
 {{ content | safe }}
 </main>

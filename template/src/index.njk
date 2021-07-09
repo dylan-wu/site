@@ -5,14 +5,11 @@ permalink: "index.html"
 {# {% if hero %}
 {% include "bunny-rabbit/hero.njk" %}
 {% endif %} #}
-
-{% set postsTitle = "Featured Posts" %}
-{% set posts = collections.posts %}
 {# {% include "bunny-rabbit/featured-posts.njk" %} #}
 
 {% from 'tanner/hero.njk' import hero %}
 
-{{ hero(site.title, site.description, 1, 2, "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1713&q=80") }}
+{{ hero(site.hero_title, site.hero_description, 1, 2, "") }}
 
 {% from 'tanner/posts-list.njk' import postsList %}
 
@@ -20,4 +17,4 @@ permalink: "index.html"
 
 {% from "tanner/projects-list.njk" import projectsList %}
 
-{{ projectsList(site.projects_title) }}
+{{ projectsList(site.projects_title, site.projects_description, "") }}
