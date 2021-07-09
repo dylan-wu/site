@@ -1,14 +1,20 @@
 {
   "title": "Dylan Wu",
-  "description": "Personal site of Dylan Wu",
-  "url": "https://dylanwu.com",
+  "description": "The personal site of Dylan Wu, where I'll post all of my updates, blogs posts, and more!",
+  "url": "https://github.com/dylan-wu/template-11ty-vredeburg",
   "author": {
     "name": "Dylan Wu",
     "email": "hey@dylanwu.com",
     "twitterHandle": "dylanwu"
   },
+  "hero_title":"Hey, I'm Dylan.",
+  "hero_description": "The personal site of Dylan Wu, where I'll post all of my updates, blogs posts, and more!",
+  "posts_title":"Featured Posts",
+  "projects_title":"Featured Projects",
+  "projects_description":"Here are some of the projects that I'm working on right now",
+  "logoLarge": "/assets/img/newsletter/creator-economy-logo.svg",
+  "brandColor": "rgba(79, 70, 229, 1)",
   "paginate": 6,
-  "keywords": ["school", "unschool", "deschool", "public education", "social good"],
   "defaultSocialImage": "/images/default-social-image.png",
   "menu": [
     {
@@ -19,8 +25,23 @@
     {
       "text": "Topics",
       "url": "/tags",
-      "external": false
-    },      
+      "external": false      
+    },    
+    {
+      "text": "NOW",
+      "url": "/now",
+      "external": false      
+    },  
+    {
+      "text": "Tools",
+      "url": "/tools",
+      "external": false      
+    },            
+    {
+      "text": "TIL",
+      "url": "/til",
+      "external": false      
+    },     
     {
       "text": "About",
       "url": "/about",
@@ -33,11 +54,6 @@
     }    
   ],
   "socialLinks": [
-    {
-      "text": "Instagram",
-      "url": "https://instagram.com/thedylanwu",
-      "external": true
-    },
     {
       "text": "GitHub",
       "url": "https://github.com/dylan-wu",
