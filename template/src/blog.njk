@@ -7,10 +7,11 @@ pagination:
 permalink: "blog/index{% if paged.number > 1 %}-{{ paged.number }}{% endif %}.html"
 ---
 
-<div class="flex flex-wrap -mx-2">
-    {% include "post-grid.njk" %}
-</div>
-
-{% if collections.posts.length > site.paginate %}
-{% include "paginator.njk" %}
-{% endif %}
+<section>
+    <div class="container mx-auto px-3 pb-12 flex flex-wrap">
+        {% include "post-grid.njk" %}
+        {% if collections.posts.length > site.paginate %}
+            {% include "paginator.njk" %}
+        {% endif %}
+    </div>
+</section>

@@ -47,3 +47,5 @@
 
 - [ ] https://www.partyround.com/ easy
     - [ ] Simplest home page, but burns my retinas out.
+
+- [ ] https://www.pekeberg.com/ easy

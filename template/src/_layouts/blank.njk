@@ -41,6 +41,10 @@
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | url }}">
 </head>	
 
+{% from 'tanner/nav.njk' import nav %}
+
+{{ nav(site.title, site.menu) }}
+
 <body class="flex flex-col h-screen bg-white text-gray-800 break-words">
     {{content | safe}}
 </body>
