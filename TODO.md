@@ -3,3 +3,5 @@
 - [ ] Contact needs to have a contact form
 - [ ] https://github.com/AnshumanFauzdar?tab=repositories 
   - [ ]https://twitter.com/anshumanfauzdar Microsoft student Ambassador
+- Stephan Hicks
+- https://medium.com/geekculture/quant-reading-list-cd75109d55ca
