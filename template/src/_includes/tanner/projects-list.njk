@@ -1,36 +1,42 @@
-{% macro projectsList(title,description,project1,project2,project3,project4,project5,project6) %}
+{% macro projectsList(title,description,project1,project2,project3,project4,project5,project6,project1_heading,project2_heading,project3_heading,project4_heading,project5_heading,project6_heading) %}
 
     <section class="text-gray-600 body-font">
         <div class="container px-5 py-24 mx-auto flex flex-wrap">
-            <div class="flex w-full mb-20 flex-wrap">
+            <div class="flex w-full mb-12 flex-wrap">
                 <h1 class="mb-6 text-4xl flex items-start text-indigo-400 font-bold">{{ title }}</h1>
                 <p class="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base">{{ description }}</p>
             </div>
             <div class="flex flex-wrap md:-m-2 -m-1">
                 <div class="flex flex-wrap w-1/2">
-                    <div class="md:p-2 p-1 w-1/2">
-                        <img alt="gallery" class="w-full object-cover h-full object-center block" src="{{project1}}">
+                    <div class="md:p-2 p-1 w-1/2 flex justify-center items-center transition duration-400 transform hover:scale-105">
+                        <h1 class="text-4xl text-white absolute z-10">{{project1_heading}}</h1>
+                        <img alt="gallery" class="w-full object-cover h-full object-center block rounded" src="{{project1}}">
                     </div>
-                    <div class="md:p-2 p-1 w-1/2">
-                        <img alt="gallery" class="w-full object-cover h-full object-center block" src="{{project2}}">
+                    <div class="md:p-2 p-1 w-1/2 flex justify-center items-center transition duration-400 transform hover:scale-105">
+                        <h1 class="text-4xl text-white absolute z-10">{{project2_heading}}</h1>
+                        <img alt="gallery" class="w-full object-cover h-full object-center block rounded" src="{{project2}}">
                     </div>
-                    <div class="md:p-2 p-1 w-full">
-                        <img alt="gallery" class="w-full h-full object-cover object-center block" src="{{project3}}">
+                    <div class="md:p-2 p-1 w-full flex justify-center items-center transition duration-400 transform hover:scale-105">
+                        <h1 class="text-4xl text-white absolute z-10">{{project3_heading}}</h1>
+                        <img alt="gallery" class="w-full h-full object-cover object-center block rounded" src="{{project3}}">
                     </div>
                 </div>
                 <div class="flex flex-wrap w-1/2">
-                    <div class="md:p-2 p-1 w-full">
-                        <img alt="gallery" class="w-full h-full object-cover object-center block" src="{{project4}}">
+                    <div class="md:p-2 p-1 w-full flex justify-center items-center transition duration-400 transform hover:scale-105">
+                        <h1 class="text-4xl text-white absolute z-10">{{project4_heading}}</h1>
+                        <img alt="gallery" class="w-full h-full object-cover object-center block rounded" src="{{project4}}">
                     </div>
-                    <div class="md:p-2 p-1 w-1/2">
-                        <img alt="gallery" class="w-full object-cover h-full object-center block" src="{{project5}}">
+                    <div class="md:p-2 p-1 w-1/2 flex justify-center items-center transition duration-400 transform hover:scale-105">
+                        <h1 class="text-4xl text-white absolute z-10">{{project5_heading}}</h1>
+                        <img alt="gallery" class="w-full object-cover h-full object-center block rounded" src="{{project5}}">
                     </div>
-                    <div class="md:p-2 p-1 w-1/2">
-                        <img alt="gallery" class="w-full object-cover h-full object-center block" src="{{project6}}">
+                    <div class="md:p-2 p-1 w-1/2 flex justify-center items-center transition duration-400 transform hover:scale-105">
+                        <h1 class="text-4xl text-white absolute z-10">{{project6_heading}}</h1>
+                        <img alt="gallery" class="w-full object-cover h-full object-center block rounded" src="{{project6}}">
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-{% endmacro %}}
+{% endmacro %}

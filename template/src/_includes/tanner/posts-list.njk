@@ -9,7 +9,7 @@
                         {% if loop.index0 < 3 %}
                             <div class="mb-8">
                                 <div class="flex relative">
-                                    <a href="{{ post.url }}" class="text-2xl font-medium text-gray-900 title-font mb-2 truncate">{{post.data.title}}</a>
+                                    <a href="{{ post.url }}" class="text-2xl font-medium transition duration-400 text-gray-900 hover:text-indigo-300 title-font mb-2 truncate">{{post.data.title}}</a>
                                 </div>
                                 <div>
                                     <h1>{{post.date | postDate}}</h1>
@@ -25,7 +25,7 @@
                         <ul class="w-full flex flex-col">
                             {% for post in posts %}
                                 {% if loop.index0 > 3 and loop.index0 < 13 %}
-                                    <a href="{{ post.url }}" class="text-sm font-medium text-gray-400 hover:text-gray-600 title-font mb-2 truncate">{{post.data.title}}</a>
+                                    <a href="{{ post.url }}" class="text-sm font-medium text-gray-400 transition duration-400 hover:text-gray-600 title-font mb-2 truncate">{{post.data.title}}</a>
                                 {% endif %}
                             {% endfor %}
                         </ul>

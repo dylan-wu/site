@@ -1,0 +1,13 @@
+{% macro hero(hero, title) %}
+
+<section class="relative h-full mb-24">
+    <img src="{{hero}}" class="absolute h-full object-cover object-center w-screen" alt="beautiful bg image"/>
+    <div class="absolute bg-gray-900 h-full w-full opacity-25"></div>
+    <div class="mx-auto container h-full relative">
+        <div class="flex flex-col items-center justify-end lg:pb-28 pb-14 pt-96">
+            <h1 class="lg:text-7xl text-4xl text-white font-bold my-16 text-center">{{title}}</h1>
+        </div>
+    </div>
+</section>
+
+{% endmacro %}

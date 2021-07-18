@@ -2,14 +2,23 @@
 layout: default
 permalink: "index.html"
 ---
+
 {# {% if hero %}
 {% include "bunny-rabbit/hero.njk" %}
 {% endif %} #}
 {# {% include "bunny-rabbit/featured-posts.njk" %} #}
 
+{% from 'tanner/nav.njk' import nav %}
+
+{{ nav(site.title, site.menu) }}
+
 {% from 'tanner/hero.njk' import hero %}
 
-{{ hero(site.hero_title, site.hero_description, 1, 2, "") }}
+{{ hero(site.hero_title, site.hero_description, 1, 2, "https://images.unsplash.com/photo-1502134249126-9f3755a50d78?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80") }}
+
+{# {% from 'dylan/hero.njk' import hero %}
+
+{{ hero("https://images.unsplash.com/photo-1502134249126-9f3755a50d78?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80") }} #}
 
 {% from 'tanner/posts-list.njk' import postsList %}
 
@@ -17,4 +26,4 @@ permalink: "index.html"
 
 {% from "tanner/projects-list.njk" import projectsList %}
 
-{{ projectsList(site.projects_title, site.projects_description, "") }}
+{{ projectsList(site.projects_title, site.projects_description, "https://images.unsplash.com/photo-1502134249126-9f3755a50d78?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80", "https://images.unsplash.com/photo-1502134249126-9f3755a50d78?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80", "https://images.unsplash.com/photo-1502134249126-9f3755a50d78?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80", "https://images.unsplash.com/photo-1502134249126-9f3755a50d78?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80", "https://images.unsplash.com/photo-1502134249126-9f3755a50d78?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80", "https://images.unsplash.com/photo-1502134249126-9f3755a50d78?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80","Hello","Welcome","Today","Orange","Apple","Ares") }}
