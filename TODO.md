@@ -5,3 +5,5 @@
   - [ ]https://twitter.com/anshumanfauzdar Microsoft student Ambassador
 - Stephan Hicks
 - https://medium.com/geekculture/quant-reading-list-cd75109d55ca
+
+- [ ] https://twitter.com/tbelmontedu/status/1417127102332248066
