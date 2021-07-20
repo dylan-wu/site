@@ -39,11 +39,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap">
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | url }}">
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 </head>	
 
 {% from 'tanner/nav.njk' import nav %}
 
-{{ nav(site.title, site.menu) }}
+{{ nav(site.title, menu) }}
 
 <body class="flex flex-col h-screen bg-white text-gray-800 break-words">
     {{content | safe}}

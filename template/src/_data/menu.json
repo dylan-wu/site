@@ -1,0 +1,56 @@
+[
+    {
+        "text": "Blog",
+        "url": "/blog",
+        "external": false
+    },
+    {
+        "text": "Topics",
+        "url": "/tags",
+        "style": "Dropdown",
+        "sublinks": [
+            {
+                "name": "Mathematics",
+                "description": ""
+            },
+            {
+                "name": "Machine Learning",
+                "description": ""
+            },
+            {
+                "name": "Creator Economy",
+                "description": ""
+            },
+            {
+                "name": "Writing",
+                "description": ""
+            }
+        ],
+        "external": false
+    },
+    {
+        "text": "Now",
+        "url": "/now",
+        "external": false
+    },
+    {
+        "text": "Tools",
+        "url": "/tools",
+        "external": false
+    },
+    {
+        "text": "TIL",
+        "url": "/til",
+        "external": false
+    },
+    {
+        "text": "About",
+        "url": "/about",
+        "external": false
+    },
+    {
+        "text": "Contact",
+        "url": "/contact",
+        "external": false
+    }
+]

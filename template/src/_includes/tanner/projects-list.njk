@@ -1,4 +1,4 @@
-{% macro projectsList(title,description,project1,project2,project3,project4,project5,project6,project1_heading,project2_heading,project3_heading,project4_heading,project5_heading,project6_heading) %}
+{% macro projectsList(title, description, project1, project2, project3, project4, project5, project6, project1_heading, project2_heading, project3_heading, project4_heading, project5_heading, project6_heading) %}
 
     <section class="text-gray-600 body-font">
         <div class="container px-5 py-24 mx-auto flex flex-wrap">
@@ -8,32 +8,44 @@
             </div>
             <div class="flex flex-wrap md:-m-2 -m-1">
                 <div class="flex flex-wrap w-1/2">
-                    <div class="md:p-2 p-1 w-1/2 flex justify-center items-center transition duration-400 transform hover:scale-105">
-                        <h1 class="text-4xl text-white absolute z-10">{{project1_heading}}</h1>
-                        <img alt="gallery" class="w-full object-cover h-full object-center block rounded" src="{{project1}}">
-                    </div>
-                    <div class="md:p-2 p-1 w-1/2 flex justify-center items-center transition duration-400 transform hover:scale-105">
-                        <h1 class="text-4xl text-white absolute z-10">{{project2_heading}}</h1>
-                        <img alt="gallery" class="w-full object-cover h-full object-center block rounded" src="{{project2}}">
-                    </div>
-                    <div class="md:p-2 p-1 w-full flex justify-center items-center transition duration-400 transform hover:scale-105">
-                        <h1 class="text-4xl text-white absolute z-10">{{project3_heading}}</h1>
-                        <img alt="gallery" class="w-full h-full object-cover object-center block rounded" src="{{project3}}">
-                    </div>
+                    <a href="https://www.khanacademy.org/" class="md:p-2 p-1 w-1/2">
+                        <div class="p-1 flex justify-center items-center transition duration-400 transform hover:scale-105">
+                            <h1 class="text-4xl text-white absolute z-10">{{project1_heading}}</h1>
+                            <img alt="gallery" class="w-full object-cover h-full object-center block rounded" src="{{project1}}">
+                        </div>
+                    </a>
+                    <a class="md:p-2 p-1 w-1/2 ">
+                        <div class="p-1 flex justify-center items-center transition duration-400 transform hover:scale-105">
+                            <h1 class="text-4xl text-white absolute z-10">{{project2_heading}}</h1>
+                            <img alt="gallery" class="w-full object-cover h-full object-center block rounded" src="{{project2}}">
+                        </div>
+                    </a>
+                    <a href="https://www.khanacademy.org/" class="md:p-2 p-1 w-full">
+                        <div class="p-1 flex justify-center items-center transition duration-400 transform hover:scale-105">
+                            <h1 class="text-4xl text-white absolute z-10">{{project3_heading}}</h1>
+                            <img alt="gallery" class="w-full h-full object-cover object-center block rounded" src="{{project3}}">
+                        </div>
+                    </a>
                 </div>
                 <div class="flex flex-wrap w-1/2">
-                    <div class="md:p-2 p-1 w-full flex justify-center items-center transition duration-400 transform hover:scale-105">
-                        <h1 class="text-4xl text-white absolute z-10">{{project4_heading}}</h1>
-                        <img alt="gallery" class="w-full h-full object-cover object-center block rounded" src="{{project4}}">
-                    </div>
-                    <div class="md:p-2 p-1 w-1/2 flex justify-center items-center transition duration-400 transform hover:scale-105">
-                        <h1 class="text-4xl text-white absolute z-10">{{project5_heading}}</h1>
-                        <img alt="gallery" class="w-full object-cover h-full object-center block rounded" src="{{project5}}">
-                    </div>
-                    <div class="md:p-2 p-1 w-1/2 flex justify-center items-center transition duration-400 transform hover:scale-105">
-                        <h1 class="text-4xl text-white absolute z-10">{{project6_heading}}</h1>
-                        <img alt="gallery" class="w-full object-cover h-full object-center block rounded" src="{{project6}}">
-                    </div>
+                    <a href="https://www.khanacademy.org/" class="md:p-2 p-1 w-full">
+                        <div class="p-1 flex justify-center items-center transition duration-400 transform hover:scale-105">
+                            <h1 class="text-4xl text-white absolute z-10">{{project4_heading}}</h1>
+                            <img alt="gallery" class="w-full h-full object-cover object-center block rounded" src="{{project4}}">
+                        </div>
+                    </a>
+                    <a href="https://www.khanacademy.org/" class="md:p-2 p-1 w-1/2">
+                        <div class="p-1 flex justify-center items-center transition duration-400 transform hover:scale-105">
+                            <h1 class="text-4xl text-white absolute z-10">{{project5_heading}}</h1>
+                            <img alt="gallery" class="w-full object-cover h-full object-center block rounded" src="{{project5}}">
+                        </div>
+                    </a>
+                    <a href="https://www.khanacademy.org/" class="md:p-2 p-1 w-1/2">
+                        <div class="p-1 flex justify-center items-center transition duration-400 transform hover:scale-105">
+                            <h1 class="text-4xl text-white absolute z-10">{{project6_heading}}</h1>
+                            <img alt="gallery" class="w-full object-cover h-full object-center block rounded" src="{{project6}}">
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>

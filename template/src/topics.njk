@@ -1,0 +1,12 @@
+---
+layout: default
+pagination:
+    data: topics
+    size: 1
+    alias: topic
+permalink: "topics/{{topic.name | slug}}/"
+---
+
+{% from "dylan/topic.njk" import topicMacro %}
+
+{{ topicMacro(topic) }}

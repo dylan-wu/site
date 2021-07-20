@@ -12,7 +12,6 @@
 
 - [ ] https://piccalil.li/
 - [ ] Fix the about, needs to have a better format, and pull information from site.json
-- [ ] Creat layout like: https://www.mokom01.com/
 
 - [x] Contact needs to have a contact form
 - [x] Fix latex
@@ -49,3 +48,14 @@
     - [ ] Simplest home page, but burns my retinas out.
 
 - [ ] https://www.pekeberg.com/ easy
+    - [ ] Interactive images
+    - [ ] Projects list
+
+- [ ] After dylan wu in header, create rotating banner or box that lists the things that I am
+    - Web designer
+    - Student
+    - Writer
+    - Speaking
+    - Maker
+
+- [ ] Create layout like: https://www.mokom01.com/
