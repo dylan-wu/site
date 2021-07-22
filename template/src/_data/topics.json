@@ -1,26 +1,105 @@
 [
     {
-        "name":"Mathematics",
-        "description":"",
-        "quote":"Mathematics is the language with which God has written the universe.\n\nLa matematica è la lingua con cui Dio ha scritto l'Universo.",
-        "source":"Galileo Galilei"
+        "name": "Mathematics",
+        "description": "",
+        "quotes": [
+            {
+                "text": "Mathematics is the language with which God has written the universe.\n\nLa matematica è la lingua con cui Dio ha scritto l'Universo.",
+                "source": "Galileo Galilei"
+            },
+            {
+                "text": "Mathematics is the language with which God has written the universe.\n\nLa matematica è la lingua con cui Dio ha scritto l'Universo.",
+                "source": "Galileo Galilei"
+            }
+        ],
+        "tags": [
+            "Complex Variables",
+            "Math",
+            "Geometry"
+        ]
     },
     {
-        "name":"Machine Learning",
-        "description":"",
-        "quote":"We marveled at our own magnificence as we gave birth to AI.",
-        "source":"Morpheus"
+        "name": "Machine Learning",
+        "description": "",
+        "quotes": [
+            {
+                "text": "We marveled at our own magnificence as we gave birth to AI.",
+                "source": "Morpheus"
+            },
+            {
+                "text": "I propose to consider the question, 'Can machines think?'",
+                "source": "Alan Turing"
+            }
+        ],
+        "tags": [
+            "Complex Variables",
+            "Math",
+            "Geometry"
+        ]
     },
     {
-        "name":"Creator Economy",
-        "description":"",
-        "quote":"To create is to live twice.\n\nCréer, c'est vivre deux fois.",
-        "source":"Albert Camus"
+        "name": "Creator Economy",
+        "description": "",
+        "quotes": [
+            {
+                "text": "To create is to live twice.\n\nCréer, c'est vivre deux fois.",
+                "source": "Albert Camus"
+            },
+            {
+                "text": "Everything you can imagine is real.",
+                "source": "Pablo Picasso"
+            }
+        ],
+        "tags": [
+            "Complex Variables",
+            "Math",
+            "Geometry"
+        ]
     },
     {
-        "name":"Writing",
-        "description":"",
-        "quote":"Write what you know.",
-        "source":"Mark Twain"
+        "name": "Writing",
+        "description": "",
+        "quotes": [
+            {
+                "text": "Write what you know.",
+                "source": "Mark Twain"
+            },
+            {
+                "text": "I am sorry to have made such a long speech, but I did not have time to write a shorter one.",
+                "source": "Winston Churchill"
+            }
+        ],
+        "tags": [
+            "Complex Variables",
+            "Math",
+            "Geometry"
+        ]
+    },
+    {
+        "name": "Education",
+        "description": "",
+        "quotes": [
+            {
+                "text": "Educate the children and it won't be necessary to punish the men.",
+                "source": "Pythagoras"
+            },
+            {
+                "text": "Only the educated are free.",
+                "source": "Epictetus"
+            },
+            {
+                "text": "We are what we repeatedly do. Excellence, then, is not an act but a habit.",
+                "source": "Aristotle"
+            },
+            {
+                "text": "Educating the mind without educating the heart is not education at all.",
+                "source": "Aristotle"
+            }
+        ],
+        "tags": [
+            "Complex Variables",
+            "Math",
+            "Geometry"
+        ]
     }
 ]

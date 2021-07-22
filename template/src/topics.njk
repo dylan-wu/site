@@ -9,4 +9,4 @@ permalink: "topics/{{topic.name | slug}}/"
 
 {% from "dylan/topic.njk" import topicMacro %}
 
-{{ topicMacro(topic) }}
+{{ topicMacro(topic, site, collections) }}

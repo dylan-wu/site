@@ -1,21 +1,25 @@
-<section class="text-gray-600 body-font overflow-hidden">
-    <div class="container py-24 mx-auto">
-        <p class="mb-12 text-4xl flex items-center text-indigo-400 font-bold">{{ title }}</p>
-        <div class="-my-8 divide-y-2 divide-indigo-200">
-            {% for post in posts %}
-                <div class="pt-8 pb-4 container">
-                    <div class="md:flex-grow flex flex-row items-center">
-                        <a href="{{ post.url }}" class="text-2xl font-medium text-gray-900 title-font py-2 truncate">{{post.data.title}}</a>
-                        {% for tag in post.data.tags %}
-                            <p class="ml-2 px-2 py-1 bg-indigo-400 rounded-full text-white text-xs font-bold">{{tag}}</p>
-                        {% endfor %}
+{% macro featuredposts(title, posts) %}
+
+    <section class="text-gray-600 body-font overflow-hidden">
+        <div class="container mx-auto px-5">
+            <p class="mb-4 text-4xl flex items-center text-indigo-400 font-bold">{{ title }}</p>
+            <div class="divide-y-2 divide-indigo-200">
+                {% for post in posts %}
+                    <div class="pt-8 pb-4 container">
+                        <div class="md:flex-grow flex flex-row items-center">
+                            <a href="{{ post.url }}" class="text-2xl font-medium text-gray-900 title-font py-2 truncate">{{post.data.title}}</a>
+                            {% for tag in post.data.tags %}
+                                <p class="ml-2 px-2 py-1 bg-indigo-400 rounded-full text-white text-xs font-bold">{{tag}}</p>
+                            {% endfor %}
+                        </div>
+
+                        <div>
+                            <h1>{{post.date | postDate}}</h1>
+                        </div>
                     </div>
-                    
-                    <div>
-                        <h1>{{post.date | postDate}}</h1>
-                    </div>
-                </div>
-            {% endfor %}
+                {% endfor %}
+            </div>
         </div>
-    </div>
-</section>
+    </section>
+
+{% endmacro %}

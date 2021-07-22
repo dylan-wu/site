@@ -4,5 +4,5 @@ permalink: now/index.html
 title: What I'm working on now
 ---
 
-{% set posts = collections.NOW %}
-{% include "bunny-rabbit/featured-posts.njk" %}
+{% from "bunny-rabbit/featured-posts.njk" import featuredposts %}
+{{ featuredposts(title,collections.NOW) }}

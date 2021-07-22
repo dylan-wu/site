@@ -24,6 +24,10 @@
             {
                 "name": "Writing",
                 "description": ""
+            },
+            {
+                "name": "Education",
+                "description": ""
             }
         ],
         "external": false
