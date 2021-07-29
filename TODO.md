@@ -14,3 +14,4 @@
 - [ ] Design, writing and topics https://twitter.com/malimirkeccita/status/1420796013426757633?s=20
 
 - [ ] https://mattrothenberg.com/
+- [ ] http://garrisonjensen.com/reading/ Design
