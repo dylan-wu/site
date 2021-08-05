@@ -9,5 +9,4 @@ https://en.wikipedia.org/wiki/Isabel_Paterson
 
 https://mises.org/library/god-machine
 https://cdn.mises.org/God%20of%20the%20Machine_2.pdf
-
 https://twitter.com/katewand/status/1421943295656308738
