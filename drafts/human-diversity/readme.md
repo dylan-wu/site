@@ -12,3 +12,5 @@ title: Human Diversity
 - https://www.wired.com/story/these-algorithms-look-x-rays-detect-your-race/
 - https://twitter.com/EPoe187/status/1425203771978784772
 - https://twitter.com/KirkegaardEmil/status/1424935904741928984
+- https://twitter.com/jurijfedorov/status/1425467377802792960
+- https://twitter.com/yhazony/status/1425335845674967041
