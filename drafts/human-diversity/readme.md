@@ -15,3 +15,4 @@ title: Human Diversity
 - https://twitter.com/jurijfedorov/status/1425467377802792960
 - https://twitter.com/yhazony/status/1425335845674967041
 - https://twitter.com/Steve_Sailer/status/1425941454426312704
+- https://twitter.com/a_centrism/status/1426057883914014720
