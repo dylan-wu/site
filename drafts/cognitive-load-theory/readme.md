@@ -1,0 +1,3 @@
+Cognitive load theory states that people who work through problems don't actually remember how to solve those problems after they've finished.
+
+This stems from the thought that working memory is incredibly limited, and so spending a few minutes to figure out some, say, math problem, is ineffective because after you work through it, you've already forgotten where you started from and how you got to the answer. Instead, the much more effective thing to do is to explain and walk through a problem, and people will 
