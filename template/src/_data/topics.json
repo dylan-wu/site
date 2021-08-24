@@ -110,7 +110,11 @@
             {
                 "text": "We know accurately only when we know little; with knowledge, doubt increases.\n\nEigentlich weiß man nur, wenn man wenig weiß, mit dem Wissen wächst der Zweifel.",
                 "source": "Johann Wolfgang von Goethe"
-            }           
+            },
+            {
+                "text": "A dead thing can go with the stream, but only a living thing can go against it.",
+                "source": "G.K. Chesterton"
+            }
         ],
         "tags": [
             "Complex Variables",
